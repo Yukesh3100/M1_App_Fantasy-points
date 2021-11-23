@@ -48,15 +48,21 @@ So, Despite of analysing their fantasy points on the past games, we need to anal
 **High Level Requirements:**
 
 1.Separate Page Design for this design
+
 2.Fulfil the Player's Strength
 
 **Low level Requirements:**
 
 1.Player's name
+
 2.Percentage of Selected by candidates
+
 3.Percentage of Captain by candidates
+
 4.Percentage of Vice- Captain by candidates
+
 5.Points Obtained by him
+
 6.Action of points
 
 
