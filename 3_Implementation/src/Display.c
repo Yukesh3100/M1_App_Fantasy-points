@@ -1,7 +1,6 @@
 #include "Sorting.h"
 /**
  * @brief Display function, to print the elements
- * 
  * @param array_ptr 
  * @param array_size 
  */
