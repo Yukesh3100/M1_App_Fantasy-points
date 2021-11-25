@@ -4,18 +4,11 @@ PROJECT_NAME = project_main
 SRC = src/BubbleSort.c\
 src/Swap.c\
 src/Display.c\
-src/InsertionSort.c\
-src/SelectionSort.c\
-src/QuickSort.c\
-src/MergeSort.c
+src/calc.c
 
 GCNO = BubbleSort\
 Swap\
-InsertionSort\
-SelectionSort\
-QuickSort\
-MergeSort
-
+calc
 BUILD = build
 
 #INC=inc
