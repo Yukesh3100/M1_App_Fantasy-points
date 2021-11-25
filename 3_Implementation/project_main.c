@@ -94,6 +94,7 @@ int valid_operation(int operation)
 
 int total_points()
 {
+  printf("Calculating total fantasy points by a player");
   scanf("\nPoints Scored :%d",&p1);
   scanf("\nRebounds :%f",&p2);
   scanf("\nAssists :%f",&p3);
