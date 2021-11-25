@@ -14,7 +14,7 @@ unsigned int choice = 0;
 //int* array_ptr;
 
 // Valid operations 
-enum operations{ bubbleSort=1, insertionSort, selectionSort, quickSort, mergeSort, EXIT };
+enum operations{ bubbleSort=1, EXIT };
 
 // Display the menu of operations supported 
 void Sorting_menu(void);
@@ -34,7 +34,7 @@ void Sorting_menu(void)
     Sort sort;
 
     printf("\nAvailable Algorithms\n");
-    printf("\n1. Bubble Sort\n2. Insertion Sort\n3. Selectiontion Sort\n4. Quick Sort\n5. Merge Sort\n6. Exit");
+    printf("\n1. Bubble Sort\n2. Exit");
     printf("\n\tEnter your choice\n");
    
    
@@ -74,26 +74,7 @@ void Sorting_menu(void)
             sort.array_ptr=BubbleSort(sort.array_ptr, sort.array_size);
             getchar();
             break;
-        case insertionSort:
-            printf("Time Complexity of Insertion Sort: O(n*n)\n");
-            sort.array_ptr=InsertionSort(sort.array_ptr,sort.array_size);
-            getchar();
-            break;
-        case selectionSort:
-            printf("Time Complexity of Selection Sort: O(n*n)\n");
-            sort.array_ptr=SelectionSort(sort.array_ptr,sort.array_size);
-            getchar();
-            break;
-        case quickSort:
-            printf("Time Complexity of Quick Sort: O(nlogn)\n");
-            sort.array_ptr=QuickSort(sort.array_ptr,0,sort.array_size-1);
-            getchar();
-            break;
-        case mergeSort:
-            printf("Time Complexity of Merge Sort: O(n*n)\n");
-            sort.array_ptr=MergeSort(sort.array_ptr,0,sort.array_size-1);
-            getchar();
-            break;
+        
         case EXIT:
             exit(0);
             break;
