@@ -20,6 +20,7 @@ enum operations{ bubbleSort=1, EXIT };
 void Sorting_menu(void);
 // Verifies the requested operations validity 
 int valid_operation(int operation);
+int total_points();
 
 
 typedef struct Sorting
@@ -48,15 +49,15 @@ void Sorting_menu(void)
 
     if(INVALID != valid_operation(choice))
     {
-        printf("\n\tEnter the array size\n");
+        printf("\n\tEnter the No of Points you applying\n");
         scanf("%d",&sort.array_size);
         if(sort.array_size<=0)
          {
-             printf("Check the Array size\n");
+             printf("Check the possibility of the number\n");
              return ;
          }
         sort.array_ptr=(int*)malloc(sort.array_size * sizeof(int));
-        printf("Enter the elements\n");
+        printf("Enter the Points\n");
         for(int i=0;i<sort.array_size;i++)
         scanf("%d", &sort.array_ptr[i]);
     }
@@ -81,7 +82,7 @@ void Sorting_menu(void)
         default:
             printf("\n\t---END---\n");
     }
-    printf("The sorted elements: ");
+    printf("The Sorted Points: ");
     Display(sort.array_ptr,sort.array_size);
 }
 
@@ -91,7 +92,7 @@ int valid_operation(int operation)
     return ((bubbleSort <= operation) && (EXIT >= operation)) ? VALID: INVALID;
 }
 
-int total_points(float)
+int total_points()
 {
   scanf("\nPoints Scored :%d",&p1);
   scanf("\nRebounds :%f",&p2);
