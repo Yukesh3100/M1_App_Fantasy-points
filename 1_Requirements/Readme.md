@@ -27,7 +27,7 @@ So, Despite of analysing their fantasy points on the past games, we need to anal
 
 **Opportunity**: Much friendly to use in effective manner. Player's Current form can help in this type of prediction.
 
-**Threat**     : Due to risk on the money, it's just a predictio on players. So no one can say the player's performance before the match.
+**Threat**     : Due to risk on the money, it's just a prediction on players. So no one can say the player's performance before the match.
 
 
 ## 4W's and 1'H:
