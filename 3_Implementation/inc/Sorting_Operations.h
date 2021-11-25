@@ -21,4 +21,6 @@ void Display(int array_ptr[], int array_size);
 
 int* BubbleSort(int array_ptr[], int array_size);
 
+void highsort(int p1,float p2,float p3,int p4,int p5,int p6);
+
 #endif 
