@@ -33,7 +33,7 @@ void Sorting_menu(void)
 {
     Sort sort;
 
-    printf("\nAvailable Algorithms\n");
+    printf("\nFantasy Points Sorting\n");
     printf("\n1. Bubble Sort\n2. Exit");
     printf("\n\tEnter your choice\n");
    
@@ -90,3 +90,17 @@ int valid_operation(int operation)
     // Check if the operation is a valid operation 
     return ((bubbleSort <= operation) && (EXIT >= operation)) ? VALID: INVALID;
 }
+
+int total_points(float)
+{
+  scanf("\nPoints Scored :%d",&p1);
+  scanf("\nRebounds :%f",&p2);
+  scanf("\nAssists :%f",&p3);
+  scanf("\nSteals :%d",&p4);
+  scanf("\nBlocks :%d",&p5);
+  scanf("\nTurn Overs :%d",&p6);
+  float points = p1+p2+p3+p4+p5+p6;
+  printf("Final Points By the Player :%d",%f);
+}
+  
+  
